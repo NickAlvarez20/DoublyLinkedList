@@ -44,10 +44,6 @@ func (ll *LinkedList[T]) index(idx uint) (T, bool){
 		curIdx++
 		current = current.next
 	}
-	//increment the current index by one
-	curIdx++
-	//move to the next node
-	current = current.next
 	//return the value, and true because it was within the list and true
 	return value, true
 }
