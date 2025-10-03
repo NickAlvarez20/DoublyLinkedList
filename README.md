@@ -1,4 +1,4 @@
-# [insertProjectName] Project
+# DoublyLinkedList Project
 ## Table of Contents
 - [Project Name](#project-name)
 - [About](#about)
@@ -12,34 +12,46 @@
 - [Credits & Acknowledgements](#credits--acknowledgements)
 - [Contact](#contact)
 ## Project Name
-Insert Project Name
+Doubly Linked List
 ## About
-Talk about project
+This project implements a Doubly Linked List data structure in Go, utilizing generics for type-safe operations. It provides functionality for creating and managing a sequence of nodes, each with references to both the next and previous nodes, enabling bidirectional traversal and manipulation.
 ## Prerequisites
-To run this project you need [programmingLanguage] installed on your system.
-Determine is additional libraries are required or no additional libraries
+To run this project, you need Go installed on your system. No additional libraries are required.
 ## Features
-This projectName includes these features:
--
--
--
+This DoublyLinkedList includes these features:
+
+-Generic-based node and list structures for type flexibility
+
+-Append operation to add nodes to the end of the list
+
+-Pop operation to remove and return the last node's value
+
+-Index operation to retrieve a value at a specified index
+
+-Print function to display the list's contents
+
 ## Getting Started & Installation
 Clone the repository to your local machine:
-`git clone https://github.com/NickAlvarez20/insertrepositoryNameHere.git`
+`git clone https://github.com/NickAlvarez20/DoublyLinkedList.git`
 ## Usage
-Run the [insertLanguage] script (insertLanguage.language) from the command line:
-`python coin_flip.py`
+Run the Go script (double.go) from the command line: 
+
+`go run double.go`
+
 ## Learning Outcomes
 This project helped me:
--
--
--
+
+-Understand the implementation of a doubly linked list using generics in Go
+
+-Master key operations like appending, popping, indexing, and printing
+
+-Enhance my Go programming skills with type-safe, modular design
+
 ## Contributing
 This is primarily a personal learning / portfolio repository, so formal contributions aren’t required. However, if you spot bugs, have project ideas, or want to add improvements, feel free to:
 1. Fork the repo
 2. Create a feature branch
-3. Submit a pull request
-Please include clear explanations of your changes and test any new code.
+3. Submit a pull request Please include clear explanations of your changes and test any new code.
 ## License
 This repository is open and free for educational use.
 *(If you decide on a specific license later, insert it here — e.g. MIT, Apache 2.0, etc.)*
